@@ -1,8 +1,8 @@
-require 'bundler/setup'
+[-176.5, 85.0], [183.5, -95.0]require 'bundler/setup'
 
 require_relative './map'
 
-map_image = Map.new('images/map.jpg', [-180.0, 90.0], [180.0, -90.0])
+map_image = Map.new('images/map.jpg', [-176.5, 85.0], [183.5, -95.0])
 
 points = [
   [-0.1257400, 51.5085300],   # London 
